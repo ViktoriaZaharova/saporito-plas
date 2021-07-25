@@ -1,6 +1,6 @@
 <?php
 
-$recepient = "test@gmail.com"; //ваша почта
+$recepient = "89268150215@mail.ru, pervova.daria@yandex.ru"; //ваша почта
 $sitename = "Сапорито плас";
 
 $name = trim($_POST["name"]);
