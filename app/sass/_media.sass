@@ -1,0 +1,375 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1600px)
+  .phone
+    margin: 0 20px
+    font-size: 18px
+
+  .schedule
+    margin: 0 0 0 20px
+
+  .header-box
+    padding: 0 0 0 20px
+
+  .main-image
+    max-width: 1100px
+
+  .director-company
+    left: 130px
+
+  .callback-content__box
+    margin: 0 30px 0 0
+    min-width: 370px
+    max-width: 370px
+
+  .callback-content__box1
+    max-width: 330px
+
+  .callback-content__box h3
+    font-size: 20px
+
+  .phone-my
+    font-size: 28px
+
+@media only screen and (max-width: 1300px)
+  .company-direction
+    font-size: 13px
+    max-width: 130px
+
+  h1
+    font-size: 30px
+
+  .main-content
+    max-width: 800px
+
+  .main-image
+    max-width: 1000px
+
+  .callback-content__box
+    font-size: 16px
+
+  .callback-img
+    max-width: 512px
+    left: 0
+
+  .callback-content__box
+    min-width: 300px
+    max-width: 300px
+
+  .phone-my
+    font-size: 24px
+
+  .callback-box
+    max-width: 400px
+    padding: 30px
+
+  .callback h2
+    margin: 0 auto 30px
+
+  .callback-content__box
+    padding: 24px
+    min-width: 240px
+    max-width: 240px
+    font-size: 14px
+    h3
+      font-size: 18px
+
+  .callback-content__box1
+    max-width: 260px
+    min-width: 260px
+
+
+
+@media only screen and (max-width: 1200px)
+  .main-image
+    max-width: 700px
+    right: -130px
+
+  .director-company
+    left: 40px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1130px)
+  .header-box
+    width: 100%
+    margin: 20px auto 0
+
+  .company-direction
+    max-width: none
+    margin: 0 auto
+
+  .header-box
+    justify-content: space-between
+
+  .phone
+    margin: 0
+    font-size: 16px
+
+  .schedule
+    margin: 0
+
+  footer
+    .btn-group
+      width: 100%
+      margin: 20px auto 0
+      justify-content: center
+    .btn
+      padding: 20px
+
+@media only screen and (max-width: 992px)
+  .main-image
+    max-width: 500px
+    right: -70px
+
+  .director-company
+    left: 0
+    font-size: 12px
+    max-width: 180px
+
+  h1
+    font-size: 24px
+
+  h2
+    font-size: 26px
+    margin: 0 0 30px
+    padding: 0 0 0 30px
+
+  .service
+    .section-wrapper
+      justify-content: space-around
+
+  .stages-advantages-box__content
+    padding: 0 0 0 40px
+
+
+  .stages-advantages-box:nth-child(even) .stages-advantages-box__content
+    padding: 0 40px 0 0
+
+  .stages-advantages-box h4
+    font-size: 24px
+
+  .stages-advantages-box .number
+    font-size: 80px
+
+  .contacts-content
+    padding: 30px 30px 30px 40px
+    max-width: 380px
+
+  .map
+    width: calc(100% - 360px)
+
+  .callback-content
+    width: 100%
+    margin: 30px 0 0
+    justify-content: center
+
+  .callback-img
+    top: 130px
+    left: 50%
+    max-width: 400px
+    transform: translate(-50%,0)
+    z-index: 1
+    &:before
+      display: none
+
+  .callback-box
+    margin: 0 auto
+    h3
+      margin: 0 auto 20px
+      padding: 0 0 20px
+
+  input
+    font-size: 14px
+
+  .form .btn
+    padding: 15px
+    font-size: 12px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 940px)
+  .main-image
+    bottom: 0
+
+  .main-content
+    max-width: none
+    margin: 0 0 190px
+
+  .advantages-box
+    margin: 0 0 30px
+
+
+@media only screen and (max-width: 768px)
+  .header-box
+    width: fit-content
+    margin: 0
+    padding: 0
+    background: transparent
+
+  .phone
+    margin: 0 20px 0 0
+
+  header
+    .address, .schedule
+      display: none
+
+  .company-direction
+    display: none
+
+  .btn
+    padding: 15px
+    font-size: 12px
+
+  .advantages-box
+    width: 50%
+
+  .btn-group
+    flex-direction: column
+    align-items: flex-start
+    .btn
+      margin: 0 0 10px
+
+  main
+    .btn-group
+      margin: 20px 0
+
+  h1
+    font-size: 24px
+    padding: 20px 0 20px 25px
+
+  .home
+    padding: 140px 0 0
+
+  .pt-100
+    padding: 50px 0 0
+
+  h2
+    font-size: 24px
+
+  .calculate
+    padding: 50px 0
+
+  .stages-advantages-box__content, .stages-advantages-box__img
+    width: 100%
+
+  .stages-advantages-box__img
+    height: 280px
+
+  .stages-advantages-box__content
+    padding: 20px 0 0
+
+  .stages-advantages-box:nth-child(even) .stages-advantages-box__content
+    order: 1
+    padding: 20px 0 0
+    text-align: left
+    .box-text
+      text-align: left
+      margin: 0
+    h4
+      &:before
+        left: 0
+        right: auto
+
+  .stages-advantages h2
+    margin: 0 0 30px
+
+  .stages-advantages-box .number
+    margin: 0 0 10px
+
+  .reviews
+    padding: 40px 0 30px
+
+  .reviews-box
+    padding: 20px
+    width: 100%
+    font-size: 16px
+    margin: 0 0 20px
+
+  .map
+    width: 100%
+    height: 350px
+
+  .contacts-content
+    margin: 10px auto 0
+    width: 100%
+    max-width: none
+
+
+  footer
+    padding: 30px 0
+
+  footer .btn-group
+    justify-content: flex-end
+    width: fit-content
+    align-items: flex-end
+    margin: 0
+    .btn
+      padding: 15px
+      font-size: 11px
+      margin: 0 0 10px
+
+  .callback
+    padding: 0 0 60px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  .director-company
+    left: -80px
+
+  .stages-advantages-box__img
+    height: 200px
+
+  .callback-content__box
+    margin: 0 0 20px
+    min-width: auto
+    width: 100%
+    max-width: none
+    padding: 20px
+    &:last-child
+      margin: 0
+
+  .callback-content
+    flex-wrap: wrap
+
+  .callback-content__box2
+    border: none
+      left: 8px solid #4d5d64
+      top: 8px solid #4d5d64
+    &:before
+      left: 0
+      right: auto
+
+  .callback-img
+    display: none
+
+  .callback
+    padding: 0
+
+@media only screen and (max-width: 480px)
+  .logo
+    max-width: 120px
+
+  header
+    .btn
+      display: none
+
+  .phone
+    margin: 0
+
+
+  .advantages-box
+    width: 100%
+    &__text
+      max-width: none
+
+  footer
+    .logo
+      margin: 0 auto 10px
+    .btn-group
+      width: 100%
+      .btn
+        width: 100%
+
